@@ -1,0 +1,44 @@
+.category {
+  padding: 40px 0;
+  background-color: #f7f7f7;
+  &__link {
+    text-align: center;
+    margin-bottom: 25px;
+
+    &__blue {
+      color: #4e9dd3;
+    }
+  }
+
+  &__title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+
+  &__wrapper {
+    display: flex;
+    gap: 15px;
+    overflow: auto;
+    padding: 20px 0;
+  }
+
+  &__item {
+    text-wrap: nowrap;
+    padding: 12px 14px;
+    background-color: #f7ebe5;
+    border-radius: 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.2s;
+
+    &:hover {
+      opacity: 0.7;
+    }
+
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+}

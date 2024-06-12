@@ -1,0 +1,26 @@
+.single-page {
+  padding: 100px;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    max-width: 70%;
+    margin: 0 auto;
+  }
+
+  &__right {
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__btn {
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+  }
+}
